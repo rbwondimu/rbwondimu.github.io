@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -33,7 +33,7 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+             <a class="dropdown-item active" href="max_temperature.html">Max Temperature</a>
               <a class="dropdown-item" href="humidity.html">Humidity</a>
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
               <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
@@ -55,16 +55,15 @@
     <div class="row">
       <div class="col-lg-7 col-md-12">
         <!-- Left box  -->
-        <div class="box">
-          <h3 class="title">Summary: Latitude vs. X</h3>
+        <div class="box" style="padding-bottom: 5px;">
+          <h3 class="title">Max Temperature</h3>
           <hr>
-          <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>Using an OpenWeatherMap API I analyzed a dataset of cities to show how distance to the equator impacts weather conditions.</p>
-           <p>I analyzed cloudiness, humidity, temperature, and wind speed as factors which may impact weather - and displayed the resulting visulations.</p>
+          <img src="Resources/assets/images/Fig1.png" alt="Max Temperature Graph">
+          <p>There is a correlation between temperature and distance to the equator - where wewather becomes warmer as one gets closer to the equator.</p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
-        <!-- Right Box -->
+      <!-- Right Box -->
         <div class="box">
           <h5 class="title">Visualizations</h5>
           <hr>
@@ -74,7 +73,7 @@
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
                 <a href="max_temperature.html">
-                  <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
+                  <img class="panel active" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
                 </a>
               </div>
               <div class="col-6">
@@ -95,9 +94,7 @@
                   <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
                 </a>
               </div>
-
-
-            </div>
+  </div>
           </div>
 
 

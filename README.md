@@ -1,2 +1,2 @@
-# rbwondimu.github.io
-This is a sample website!
+# Web-Design-Challenge
+Web Design Homework - Web Visualization Dashboard (Latitude)
